@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VvvomponentComponent } from './vvvomponent.component';
+import { VVComponent } from './vv.component';
 
 describe('VvvomponentComponent', () => {
-  let component: VvvomponentComponent;
-  let fixture: ComponentFixture<VvvomponentComponent>;
+  let component: VVComponent;
+  let fixture: ComponentFixture<VVComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ VvvomponentComponent ]
+      declarations: [ VVComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(VvvomponentComponent);
+    fixture = TestBed.createComponent(VVComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

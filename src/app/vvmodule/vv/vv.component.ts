@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { VVActivity, VvserviceService } from '../vvservice.service';
+import { VVActivity, VVService } from '../vv.service';
 
 @Component({
-  selector: 'app-vvvomponent',
-  templateUrl: './vvvomponent.component.html',
-  styleUrls: ['./vvvomponent.component.css']
+  selector: 'app-vv',
+  templateUrl: './vv.component.html',
+  styleUrls: ['./vv.component.css']
 })
-export class VvvomponentComponent implements OnInit {
+export class VVComponent implements OnInit {
 
   currentActivity$: Observable<VVActivity> | undefined;
 
-  constructor(private vvService: VvserviceService) { }
+  constructor(private vvService: VVService) { }
 
   ngOnInit() {
     this.reloadActivity();

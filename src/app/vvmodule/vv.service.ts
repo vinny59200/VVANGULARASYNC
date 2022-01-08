@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class VvserviceService {
+export class VVService {
 
   constructor(private http: HttpClient) { }
 
